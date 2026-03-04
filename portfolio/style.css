@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a; /* Dark Navy Theme */
+    color: #f8fafc;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #1e293b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1517071508029-1234b67776ad?auto=format&fit=crop&q=80&w=1000'); /* Simple tech background */
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #f8fafc;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+    color: #38bdf8;
+}
+
+/* Sections Styling */
+section {
+    padding: 100px 10%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #38bdf8;
+}
+
+/* Education Cards */
+.edu-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.edu-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 4px solid #38bdf8;
+}
+
+/* Skills Box */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-box {
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Contact */
+.contact-info {
+    text-align: center;
+}
+
+.email-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.email-btn:hover {
+    background: #7dd3fc;
+    transform: translateY(-3px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
